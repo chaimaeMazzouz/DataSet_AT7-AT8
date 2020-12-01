@@ -79,6 +79,9 @@
     <EmbeddedResource Include="Navigation_Chauffeur.resx">
       <DependentUpon>Navigation_Chauffeur.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navigation_Véhicule.resx">
+      <DependentUpon>Navigation_Véhicule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

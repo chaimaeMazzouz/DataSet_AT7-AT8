@@ -95,6 +95,7 @@
             this.navigationToolStripMenuItem1.Name = "navigationToolStripMenuItem1";
             this.navigationToolStripMenuItem1.Size = new System.Drawing.Size(181, 22);
             this.navigationToolStripMenuItem1.Text = "Navigation";
+            this.navigationToolStripMenuItem1.Click += new System.EventHandler(this.navigationToolStripMenuItem1_Click);
             // 
             // rechercheVoyagesToolStripMenuItem
             // 
