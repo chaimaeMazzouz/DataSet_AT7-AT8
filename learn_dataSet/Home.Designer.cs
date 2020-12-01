@@ -37,6 +37,8 @@
             this.navigationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.rechercheVoyagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rechercheVéhiculesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.voyagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.navigationToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +46,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.chauffeurToolStripMenuItem,
-            this.véhiculesToolStripMenuItem});
+            this.véhiculesToolStripMenuItem,
+            this.voyagesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -109,6 +112,21 @@
             this.rechercheVéhiculesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.rechercheVéhiculesToolStripMenuItem.Text = "Recherche Véhicules";
             // 
+            // voyagesToolStripMenuItem
+            // 
+            this.voyagesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.navigationToolStripMenuItem2});
+            this.voyagesToolStripMenuItem.Name = "voyagesToolStripMenuItem";
+            this.voyagesToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.voyagesToolStripMenuItem.Text = "Voyages";
+            // 
+            // navigationToolStripMenuItem2
+            // 
+            this.navigationToolStripMenuItem2.Name = "navigationToolStripMenuItem2";
+            this.navigationToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.navigationToolStripMenuItem2.Text = "Navigation";
+            this.navigationToolStripMenuItem2.Click += new System.EventHandler(this.navigationToolStripMenuItem2_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -136,6 +154,8 @@
         private System.Windows.Forms.ToolStripMenuItem navigationToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem rechercheVoyagesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rechercheVéhiculesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem voyagesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem navigationToolStripMenuItem2;
     }
 }
 

@@ -10,3 +10,4 @@ C:\Users\MZ\source\repos\DataSet\learn_dataSet\obj\Debug\learn_dataSet.exe
 C:\Users\MZ\source\repos\DataSet\learn_dataSet\obj\Debug\learn_dataSet.pdb
 C:\Users\MZ\source\repos\DataSet\learn_dataSet\obj\Debug\learn_dataSet.csprojAssemblyReference.cache
 C:\Users\MZ\source\repos\DataSet\learn_dataSet\obj\Debug\learn_dataSet.Navigation_Véhicule.resources
+C:\Users\MZ\source\repos\DataSet\learn_dataSet\obj\Debug\learn_dataSet.Navigation_Voyages.resources

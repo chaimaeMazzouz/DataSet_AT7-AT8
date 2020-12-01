@@ -33,5 +33,10 @@ namespace learn_dataSet
         {
             Changer_Form(new Navigation_Véhicule());
         }
+
+        private void navigationToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Navigation_Voyages());
+        }
     }
 }
