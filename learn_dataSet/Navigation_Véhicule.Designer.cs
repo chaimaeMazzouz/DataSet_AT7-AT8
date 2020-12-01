@@ -52,10 +52,10 @@
             this.nbreVehiculesLbl.AutoSize = true;
             this.nbreVehiculesLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbreVehiculesLbl.ForeColor = System.Drawing.Color.LightCoral;
-            this.nbreVehiculesLbl.Location = new System.Drawing.Point(248, 134);
+            this.nbreVehiculesLbl.Location = new System.Drawing.Point(277, 134);
             this.nbreVehiculesLbl.Name = "nbreVehiculesLbl";
             this.nbreVehiculesLbl.Size = new System.Drawing.Size(0, 18);
-            this.nbreVehiculesLbl.TabIndex = 10;
+            this.nbreVehiculesLbl.TabIndex = 14;
             // 
             // groupBox1
             // 
@@ -74,10 +74,10 @@
             this.groupBox1.Controls.Add(this.textImmatricule);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.groupBox1.Location = new System.Drawing.Point(39, 179);
+            this.groupBox1.Location = new System.Drawing.Point(68, 179);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(668, 169);
-            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fiche Véhicules";
             // 
@@ -196,10 +196,10 @@
             this.label2.BackColor = System.Drawing.Color.LightCoral;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(35, 129);
+            this.label2.Location = new System.Drawing.Point(64, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 20);
-            this.label2.TabIndex = 9;
+            this.label2.TabIndex = 13;
             this.label2.Text = "Nombre Véhicules";
             // 
             // label1
@@ -208,10 +208,10 @@
             this.label1.BackColor = System.Drawing.Color.LightCoral;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(327, 103);
+            this.label1.Location = new System.Drawing.Point(356, 103);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 20);
-            this.label1.TabIndex = 8;
+            this.label1.TabIndex = 12;
             this.label1.Text = "Véhicules";
             // 
             // Navigation_Véhicule

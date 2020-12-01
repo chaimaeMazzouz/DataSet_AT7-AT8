@@ -59,11 +59,11 @@
     <Compile Include="Navigation_Chauffeur.Designer.cs">
       <DependentUpon>Navigation_Chauffeur.cs</DependentUpon>
     </Compile>
-    <Compile Include="Navigation_Voyage.cs">
+    <Compile Include="Navigation_Voyages.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Navigation_Voyage.Designer.cs">
-      <DependentUpon>Navigation_Voyage.cs</DependentUpon>
+    <Compile Include="Navigation_Voyages.Designer.cs">
+      <DependentUpon>Navigation_Voyages.cs</DependentUpon>
     </Compile>
     <Compile Include="Navigation_Véhicule.cs">
       <SubType>Form</SubType>

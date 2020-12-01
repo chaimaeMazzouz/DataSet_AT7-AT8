@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace learn_dataSet
 {
-    public partial class Navigation_Voyage : Form
+    public partial class Navigation_Voyages : Form
     {
-        public Navigation_Voyage()
+        public Navigation_Voyages()
         {
             InitializeComponent();
         }

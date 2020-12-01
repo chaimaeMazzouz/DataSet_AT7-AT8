@@ -17,6 +17,7 @@ namespace learn_dataSet
         {
             InitializeComponent();
         }
+
         Global g1 = new Global();
         DataSet Ds_Vehicules = new DataSet();
         SqlDataAdapter Adp_Vehicules;
@@ -42,6 +43,7 @@ namespace learn_dataSet
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             i = 0;
             remplir();
         }
