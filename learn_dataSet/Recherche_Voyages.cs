@@ -29,10 +29,10 @@ namespace learn_dataSet
         {
             Adp_Voyages.SelectCommand.CommandText = "SELECT ID_chauffeur,(Nom+' '+Prenom) as Nom from chauffeur";
             Ds_Voyages.Clear();
-            Adp_Voyages.Fill(Ds_Voyages, "MesChauffeurs");
+            Adp_Voyages.Fill(Ds_Voyages,"MesChauffeurs");
 
-            string Stcom = "select Vehicule.Immatricule,Marque, ID_Voyage,Date_Voyage,Voyage.ID_chauffeur as ID "+
-"from Voyage join Vehicule on Voyage.Immatricule = Vehicule.Immatricule";
+            string Stcom = "select ID_voyage ,date_voyage,voyage.ID_chauffeur as ID "+
+"from Voyage join chauffeur on Voyage.ID_chauffeur = chauffeur.ID_chauffeur";
             Adp_Voyages.SelectCommand.CommandText = Stcom;
             Adp_Voyages.Fill(Ds_Voyages, "MesVoyages");
 
