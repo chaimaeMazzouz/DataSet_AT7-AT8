@@ -46,6 +46,7 @@ namespace learn_dataSet
             DataView Vue_voyage = Ds_Voyages.Tables["MesVoyages"].DefaultView;
             try
             {
+                
                 Vue_voyage.RowFilter = "ID= '" + comboBox1.SelectedValue + "'";
                 Vue_voyage.Sort = "Date_Voyage ASC";
 
