@@ -38,5 +38,10 @@ namespace learn_dataSet
         {
             Changer_Form(new Navigation_Voyages());
         }
+
+        private void rechercheVoyageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Recherche_Voyages());
+        }
     }
 }

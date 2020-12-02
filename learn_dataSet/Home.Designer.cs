@@ -76,6 +76,7 @@
             this.rechercheVoyageToolStripMenuItem.Name = "rechercheVoyageToolStripMenuItem";
             this.rechercheVoyageToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.rechercheVoyageToolStripMenuItem.Text = "Recherche Voyages";
+            this.rechercheVoyageToolStripMenuItem.Click += new System.EventHandler(this.rechercheVoyageToolStripMenuItem_Click);
             // 
             // rechercheVéhucilesToolStripMenuItem
             // 
@@ -123,7 +124,7 @@
             // navigationToolStripMenuItem2
             // 
             this.navigationToolStripMenuItem2.Name = "navigationToolStripMenuItem2";
-            this.navigationToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.navigationToolStripMenuItem2.Size = new System.Drawing.Size(132, 22);
             this.navigationToolStripMenuItem2.Text = "Navigation";
             this.navigationToolStripMenuItem2.Click += new System.EventHandler(this.navigationToolStripMenuItem2_Click);
             // 
