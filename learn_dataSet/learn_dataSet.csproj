@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chauffeurs_par_Vehicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chauffeurs_par_Vehicule.Designer.cs">
+      <DependentUpon>Chauffeurs_par_Vehicule.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global.cs" />
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -73,12 +79,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recherche_Billets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recherche_Billets.Designer.cs">
+      <DependentUpon>Recherche_Billets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recherche_Vehicules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recherche_Vehicules.Designer.cs">
+      <DependentUpon>Recherche_Vehicules.cs</DependentUpon>
+    </Compile>
     <Compile Include="Recherche_Voyages.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Recherche_Voyages.Designer.cs">
       <DependentUpon>Recherche_Voyages.cs</DependentUpon>
     </Compile>
+    <Compile Include="Voyage_par_Vehicule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Voyage_par_Vehicule.Designer.cs">
+      <DependentUpon>Voyage_par_Vehicule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Chauffeurs_par_Vehicule.resx">
+      <DependentUpon>Chauffeurs_par_Vehicule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,8 +127,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Recherche_Billets.resx">
+      <DependentUpon>Recherche_Billets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recherche_Vehicules.resx">
+      <DependentUpon>Recherche_Vehicules.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Recherche_Voyages.resx">
       <DependentUpon>Recherche_Voyages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Voyage_par_Vehicule.resx">
+      <DependentUpon>Voyage_par_Vehicule.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,6 +1,6 @@
 ﻿namespace learn_dataSet
 {
-    partial class Recherche_Voyages
+    partial class Voyage_par_Vehicule
     {
         /// <summary>
         /// Required designer variable.
@@ -41,16 +41,16 @@
             this.dataGridView1.Location = new System.Drawing.Point(223, 212);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(359, 150);
-            this.dataGridView1.TabIndex = 18;
+            this.dataGridView1.TabIndex = 26;
             // 
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(461, 155);
+            this.comboBox1.Location = new System.Drawing.Point(397, 157);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 17;
+            this.comboBox1.TabIndex = 25;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
@@ -61,9 +61,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Location = new System.Drawing.Point(219, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 20);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Nom Chauffeur";
+            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "Véhicule";
             // 
             // label1
             // 
@@ -73,11 +73,11 @@
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(279, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(272, 20);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Voyages éffectués par chauffeur";
+            this.label1.Size = new System.Drawing.Size(183, 20);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Voyages par Véhicule";
             // 
-            // Recherche_Voyages
+            // Voyage_par_Vehicule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,9 +86,9 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Recherche_Voyages";
-            this.Text = "Recherche_Voyages";
-            this.Load += new System.EventHandler(this.Recherche_Voyages_Load);
+            this.Name = "Voyage_par_Vehicule";
+            this.Text = "Voyage_par_Vehicule";
+            this.Load += new System.EventHandler(this.Voyage_par_Vehicule_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

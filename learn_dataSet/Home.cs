@@ -43,5 +43,25 @@ namespace learn_dataSet
         {
             Changer_Form(new Recherche_Voyages());
         }
+
+        private void rechercheVéhucilesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Recherche_Vehicules());
+        }
+
+        private void rechercheVoyagesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Voyage_par_Vehicule());
+        }
+
+        private void rechercheVéhiculesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Chauffeurs_par_Vehicule());
+        }
+
+        private void rechercheBilletsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Changer_Form(new Recherche_Billets());
+        }
     }
 }

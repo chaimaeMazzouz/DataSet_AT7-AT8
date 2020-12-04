@@ -39,6 +39,7 @@
             this.rechercheVéhiculesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.voyagesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.navigationToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.rechercheBilletsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +84,7 @@
             this.rechercheVéhucilesToolStripMenuItem.Name = "rechercheVéhucilesToolStripMenuItem";
             this.rechercheVéhucilesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.rechercheVéhucilesToolStripMenuItem.Text = "Recherche Véhicules";
+            this.rechercheVéhucilesToolStripMenuItem.Click += new System.EventHandler(this.rechercheVéhucilesToolStripMenuItem_Click);
             // 
             // véhiculesToolStripMenuItem
             // 
@@ -106,17 +108,20 @@
             this.rechercheVoyagesToolStripMenuItem.Name = "rechercheVoyagesToolStripMenuItem";
             this.rechercheVoyagesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
             this.rechercheVoyagesToolStripMenuItem.Text = "Recherche Voyages";
+            this.rechercheVoyagesToolStripMenuItem.Click += new System.EventHandler(this.rechercheVoyagesToolStripMenuItem_Click);
             // 
             // rechercheVéhiculesToolStripMenuItem
             // 
             this.rechercheVéhiculesToolStripMenuItem.Name = "rechercheVéhiculesToolStripMenuItem";
-            this.rechercheVéhiculesToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.rechercheVéhiculesToolStripMenuItem.Text = "Recherche Véhicules";
+            this.rechercheVéhiculesToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.rechercheVéhiculesToolStripMenuItem.Text = "Recherche Chauffeurs";
+            this.rechercheVéhiculesToolStripMenuItem.Click += new System.EventHandler(this.rechercheVéhiculesToolStripMenuItem_Click);
             // 
             // voyagesToolStripMenuItem
             // 
             this.voyagesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.navigationToolStripMenuItem2});
+            this.navigationToolStripMenuItem2,
+            this.rechercheBilletsToolStripMenuItem});
             this.voyagesToolStripMenuItem.Name = "voyagesToolStripMenuItem";
             this.voyagesToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.voyagesToolStripMenuItem.Text = "Voyages";
@@ -124,9 +129,16 @@
             // navigationToolStripMenuItem2
             // 
             this.navigationToolStripMenuItem2.Name = "navigationToolStripMenuItem2";
-            this.navigationToolStripMenuItem2.Size = new System.Drawing.Size(132, 22);
+            this.navigationToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.navigationToolStripMenuItem2.Text = "Navigation";
             this.navigationToolStripMenuItem2.Click += new System.EventHandler(this.navigationToolStripMenuItem2_Click);
+            // 
+            // rechercheBilletsToolStripMenuItem
+            // 
+            this.rechercheBilletsToolStripMenuItem.Name = "rechercheBilletsToolStripMenuItem";
+            this.rechercheBilletsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rechercheBilletsToolStripMenuItem.Text = "Recherche Billets";
+            this.rechercheBilletsToolStripMenuItem.Click += new System.EventHandler(this.rechercheBilletsToolStripMenuItem_Click);
             // 
             // Home
             // 
@@ -157,6 +169,7 @@
         private System.Windows.Forms.ToolStripMenuItem rechercheVéhiculesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem voyagesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem navigationToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem rechercheBilletsToolStripMenuItem;
     }
 }
 
